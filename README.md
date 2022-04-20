@@ -1,5 +1,11 @@
 # vanilla-extract-filename
 
+Repro for Vanilla Extract `__filename` issue.
+
+1. Run `pnpm install && pnpm dev`
+2. Open `http://localhost:3000`
+3. See the below error.
+
 ```
 [vite] Internal server error: __filename is not defined
   Plugin: vanilla-extract
